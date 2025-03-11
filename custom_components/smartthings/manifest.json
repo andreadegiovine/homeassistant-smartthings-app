@@ -1,0 +1,32 @@
+{
+  "domain": "smartthings_app",
+  "name": "SmartThings App",
+  "codeowners": ["@andreadegiovine"],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "hostname": "st*",
+      "macaddress": "24FD5B*"
+    },
+    {
+      "hostname": "smartthings*",
+      "macaddress": "24FD5B*"
+    },
+    {
+      "hostname": "hub*",
+      "macaddress": "24FD5B*"
+    },
+    {
+      "hostname": "hub*",
+      "macaddress": "D052A8*"
+    },
+    {
+      "hostname": "hub*",
+      "macaddress": "286D97*"
+    }
+  ],
+  "documentation": "https://github.com/andreadegiovine/homeassistant-smartthings-app",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/andreadegiovine/homeassistant-smartthings-app/issues",
+  "version": "0.0.1"
+}
